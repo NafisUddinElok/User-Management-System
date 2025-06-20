@@ -46,7 +46,3 @@ user_management/
 
 └── footer.php # Reusable footer
 
-
-## 📸 Screenshot
-
-![Screenshot](Screenshot 2025-06-20 221159.png)
