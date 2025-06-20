@@ -1,58 +1,47 @@
-🧑‍💼 User Management System – PHP + MySQL CRUD App
+# 🧑‍💼 User Management System | PHP + MySQL CRUD App
 
-This is a simple PHP-based User Management System that demonstrates complete CRUD operations:
+A clean and beginner-friendly **User Management System** built using core **PHP** and **MySQL**. This project is designed to help developers understand and implement basic **CRUD operations** in a structured and maintainable way.
 
-✅ Create: Add new users
+---
 
-📋 Read: Display a user list from the MySQL database
+## ✨ Features
 
-✏️ Update: Edit existing user details
+✅ Add, View, Edit, and Delete Users  
+✅ HTML Form Validation with PHP  
+✅ Dynamic UI with table layout  
+✅ Modular Code with reusable header/footer  
+✅ Lightweight and easy to customize
 
-❌ Delete: Remove users from the database
+---
 
+## 🚀 Technologies Used
 
+| Language | Tools/Stack      |
+|----------|------------------|
+| 🐘 PHP   | Core PHP (no frameworks) |
+| 🛢️ MySQL | phpMyAdmin / XAMPP |
+| 🎨 HTML/CSS | Basic styling with custom CSS |
 
-🛠️ Tech Stack
-PHP (Vanilla PHP)
+---
 
-MySQL (with phpMyAdmin)
-
-HTML & CSS
-
-
-
-📁 Features
-
-Clean & simple UI
-
-Secure form handling with validation
-
-Modular structure using header.php and footer.php
-
-Easy to customize for other entities (like products, posts, etc.)
-
-
-
-📂 Folder Structure
-
-pgsql
-
-Copy code
+## 🧱 Folder Structure
 
 user_management/
 
-├── add.php
+├── add.php # Create new user
 
-├── config.php
+├── config.php # Database connection
 
-├── delete.php
+├── delete.php # Delete a user
 
-├── edit.php
+├── edit.php # Update user info
 
-├── index.php
+├── index.php # Display all users (Read)
 
-├── style.css
+├── style.css # Simple styling
 
 └── includes/
-    ├── header.php
-    └── footer.php
+
+├── header.php # Reusable header
+
+└── footer.php # Reusable footer
